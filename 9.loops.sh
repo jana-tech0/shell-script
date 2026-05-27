@@ -21,3 +21,12 @@ for i in {1..10..2}
 do 
     echo "Odd Number: $i"
 done
+
+for i in {1..5}
+do
+    for j in {1..$i}
+    do
+        echo -n "*"
+    done
+    echo ""
+done
